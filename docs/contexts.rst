@@ -4,7 +4,7 @@ Contexts
 Contexts in Gordon are groups of variables which you want to make accessible to your code, but
 you don't want to hardcode into it because it's values are dependant on the the deployment.
 
-This could be for example because ``dev`` and ``production`` lambdas (although beeing the same code), need to connect to
+This could be for example because ``dev`` and ``production`` lambdas (although being the same code), need to connect to
 different resources, use different passwords or produce slightly different outputs.
 
 In the same way, same lambdas deployed to different regions will probably need to connect to different places.

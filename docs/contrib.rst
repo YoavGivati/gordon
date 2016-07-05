@@ -39,7 +39,7 @@ Available ``contrib`` apps
 ``contrib.lambdas``
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-This application exposes two ``CloudFormation`` resources:
+This application exposes one ``CloudFormation`` resource:
 
     * **version**: Creates Versions for our lambda functions. Nothing super fancy under the hood: https://github.com/jorgebastida/gordon/blob/master/gordon/contrib/lambdas/version/version.py
 

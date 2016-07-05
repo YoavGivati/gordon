@@ -152,7 +152,7 @@ Validation                   Up to 31 lowercase alphanumeric characters includin
 Description                  Base Name of the bucket gordon will use to store the source code of your lambdas and Cloudformation templates.
 ===========================  ================================================================================================================
 
-Because the source code and the lambdas needs to be in the same region, gordon will create on bucket per region and stage following
+Because the source code and the lambdas needs to be in the same region, gordon will create one bucket per region and stage following
 the following format:
 
 ``$CODE_BUCKET-$REGION-$STAGE``.

@@ -3,7 +3,7 @@ Quickstart: Javascript
 
 Now that you have Gordon installed, let's create our first project. Before doing so, you need to understand how Gordon projects are structured.
 
-A Gordon project consist in one or more applications. The term application describes a directory that provides some set of features. Applications may be reused in various projects.
+A Gordon project consists in one or more applications. The term application describes a directory that provides some set of features. Applications may be reused in various projects.
 
 Requirements for Javascript lambdas:
  * ``npm``: https://nodejs.org/en/download/
@@ -62,7 +62,7 @@ Once you understand how everything works, and you start developing your app, you
 
 Give it a look to ``firstapp/settings.yml`` and ``firstapp/helloworld/code.js`` files in order to get a better understanding of what gordon just created for you.
 
-Now that we know what these files does, we need to install this ``firstapp``. In order to do so, open your project ``settings.yml`` and add ``firstapp`` to the ``apps`` list:
+Now that we know what these files do, we need to install this ``firstapp``. In order to do so, open your project ``settings.yml`` and add ``firstapp`` to the ``apps`` list:
 
 
 .. code-block:: yaml

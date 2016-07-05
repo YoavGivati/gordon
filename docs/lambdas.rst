@@ -548,7 +548,7 @@ Description                  Map of AWS policies to attach to the role of this l
 ===========================  ============================================================================================================
 
 This is the way you'll give permissions to you lambda to connect to other AWS services such as dynamodb, kinesis, s3, etc...
-For more inforamtion `AWS IAM Policy Reference <http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies.html>`_
+For more information `AWS IAM Policy Reference <http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies.html>`_
 
 In the following example we attach one policy called ``example_bucket_policy`` to our lambda ``hello_world`` in order to make it possible to read and write a
 S3 bucket called ``EXAMPLE-BUCKET-NAME``.
